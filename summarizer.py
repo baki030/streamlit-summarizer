@@ -53,7 +53,6 @@ elif source == "PDF Upload":
         extracted_text = extract_text_from_pdf(uploaded_file)
         st.write(summarize_text(extracted_text, max_length=length))
 
----
 
 ### **4. Deploy for Free**
 - Use **Streamlit Cloud**: Upload your script to GitHub and deploy it via [Streamlit Community Cloud](https://streamlit.io/cloud).
