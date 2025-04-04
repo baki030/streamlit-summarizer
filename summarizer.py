@@ -53,10 +53,3 @@ elif source == "PDF Upload":
         extracted_text = extract_text_from_pdf(uploaded_file)
         st.write(summarize_text(extracted_text, max_length=length))
 
-
-### **4. Deploy for Free**
-- Use **Streamlit Cloud**: Upload your script to GitHub and deploy it via [Streamlit Community Cloud](https://streamlit.io/cloud).
-- Use **Google Colab**: Run it as a notebook for free.
-- Use **Hugging Face Spaces**: Deploy it easily using [Gradio](https://huggingface.co/spaces).
-
-This setup allows you to summarize articles, research papers, and documents **without paying for APIs**. Want more customization, like keyword-based summaries? You can add **spaCy** or **NLTK** for better text processing.
