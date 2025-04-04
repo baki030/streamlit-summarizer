@@ -3,3 +3,5 @@ streamlit
 transformers
 torch
 pdfplumber
+requests
+bs4
